@@ -120,8 +120,8 @@ body {
 }
 
 #secondblock {
-  margin-top: 180px;
-  margin-bottom: 140px;
+  padding-top: 180px;
+  padding-bottom: 140px;
 }
 
 .compares h6 {
