@@ -1,0 +1,82 @@
+////////// Main Contents //////////
+
+//import variables
+@import 'variables';
+
+.h2_title {
+    font-size: 1.45rem;
+    font-weight: bolder;
+    //border-left: 8px solid $blue;
+    //padding-left: 8px;
+    border-radius: 4px;
+}
+
+.text_undertitle_smaller {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgba(255,255,255,0.6);
+}
+
+.sections {
+    padding-top: 50px;
+}
+
+.solution_boxedtags {
+    color: $blue_light;
+    border: 2px solid $blue_light;
+    padding: 2px 4px;
+    font-weight: 500;
+    border-radius: 2px;
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 3px;
+}
+
+// contact page
+
+.contacts_Box {
+    background-color: rgba(255,255,255,0.025);
+    padding: 0;
+    margin: 2%;
+    width: 46%;
+    float: left;
+    padding: 15px 15px 15px 25px;
+    border-left: 3px solid $blue;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+.contact_title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.contact_link {
+    color: rgba(255,255,255,0.5);
+    font-size: 1.2rem;
+    margin: 0;
+}
+.contact_link:hover {
+    color: rgba(255,255,255,1);
+}
+
+.contacts_Box h3 {
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 4px;
+}
+  
+.contacts_Box h4 {
+    font-size: 1.15rem;
+    font-weight: bolder;
+    letter-spacing: 0px;
+}
+
+.contacts_Box h6 {
+    color: rgba(255,255,255,0.6);
+}
+

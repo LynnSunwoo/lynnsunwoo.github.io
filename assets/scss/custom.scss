@@ -1,0 +1,32 @@
+////////// CUSTOM /////////
+
+//import variables
+@import 'variables';
+
+// import sidebar
+@import 'nav';
+
+//import main contents
+@import 'main';
+
+//title pages
+@import 'titlepages';
+
+// slider
+@import 'sliders';
+
+
+html,body {
+    background-color: $black; 
+    font-family: $mainfont;
+    color: $black;
+}
+
+
+
+
+//Main container
+.container_left_space {
+    margin-left: 240px;
+    margin-right: 4.5rem;
+}

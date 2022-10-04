@@ -1,0 +1,65 @@
+////////// Side bar //////////
+
+//import variables
+@import 'variables';
+
+
+//nav bar 
+.navbar {
+    align-items: flex-start;
+    position: fixed;
+    top: 2rem ;
+    left: 0;
+    min-width: 200px ; 
+    //color: rgba($color: $red, $alpha: 0.7) !important;
+    line-height: 1;
+    color: #fff;
+    transition: bottom 0.7s cubic-bezier(0.54, 0.18, 0.36, 0.81), color 0.7s cubic-bezier(0.54, 0.18, 0.36, 0.81);
+    z-index: 100; 
+    //background-color: red !important;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    margin-right: 0; 
+}
+
+
+.fixed-left {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+// sub nav
+.nav_arrow_turn {
+    transition: transform .2s ease; 
+}
+
+
+.arrow_rotated { 
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+} 
+    
+
+.nav-sublink {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem
+} 
+
+//dropdown
+.middle_dot {
+    font-size: 1rem;
+}
+
+ 
+
+ 

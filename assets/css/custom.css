@@ -1,0 +1,187 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+.navbar {
+  align-items: flex-start;
+  position: fixed;
+  top: 2rem;
+  left: 0;
+  min-width: 200px;
+  line-height: 1;
+  color: #fff;
+  transition: bottom 0.7s cubic-bezier(0.54, 0.18, 0.36, 0.81), color 0.7s cubic-bezier(0.54, 0.18, 0.36, 0.81);
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+.fixed-left {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.nav_arrow_turn {
+  transition: transform 0.2s ease;
+}
+
+.arrow_rotated {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.nav-sublink {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+}
+
+.middle_dot {
+  font-size: 1rem;
+}
+
+.h2_title {
+  font-size: 1.45rem;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+
+.text_undertitle_smaller {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.sections {
+  padding-top: 50px;
+}
+
+.solution_boxedtags {
+  color: #2A85F3;
+  border: 2px solid #2A85F3;
+  padding: 2px 4px;
+  font-weight: 500;
+  border-radius: 2px;
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 3px;
+}
+
+.contacts_Box {
+  background-color: rgba(255, 255, 255, 0.025);
+  padding: 0;
+  margin: 2%;
+  width: 46%;
+  float: left;
+  padding: 15px 15px 15px 25px;
+  border-left: 3px solid #305597;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.contact_title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.contact_link {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.contact_link:hover {
+  color: rgb(255, 255, 255);
+}
+
+.contacts_Box h3 {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 4px;
+}
+
+.contacts_Box h4 {
+  font-size: 1.15rem;
+  font-weight: bolder;
+  letter-spacing: 0px;
+}
+
+.contacts_Box h6 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.h1_title {
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.text_undertitle {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.carousel-indicators {
+  list-style: none;
+}
+
+.carousel-indicators li {
+  border-left: 5px solid transparent;
+  padding: 4px 4px 4px 8px;
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 5px;
+}
+
+.carousel-indicators:hover {
+  cursor: pointer;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  color: green;
+  border-left: 5px solid #305597;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: rgb(255, 255, 255);
+}
+
+.carousel-inner {
+  border-radius: 8px;
+  padding: 0;
+  padding: 0px 35px 0px 0px;
+}
+
+.carousel-item {
+  border-radius: 8px;
+}
+
+.vids {
+  border-radius: 8px;
+}
+
+html, body {
+  background-color: #222527;
+  font-family: "Pretendard Variable";
+  color: #222527;
+}
+
+.container_left_space {
+  margin-left: 240px;
+  margin-right: 4.5rem;
+}
+
+/*# sourceMappingURL=custom.css.map */
