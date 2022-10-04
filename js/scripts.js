@@ -1,10 +1,5 @@
-$(document).ready(function() {
-    $('#fullpage').fullpage({
-        //options here
-        autoScrolling:true,
-        scrollHorizontally: true
-    });
+$('.carousel').carousel()
 
-    //methods
-    $.fn.fullpage.setAllowScrolling(true);
-});
+$('#carouselExampleIndicators').carousel({
+  interval: 2000
+})

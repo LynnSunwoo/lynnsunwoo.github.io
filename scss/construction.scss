@@ -1,0 +1,25 @@
+///// construction /////
+
+@import 'variables';
+
+@import 'nav';
+
+@import 'sliders';
+
+html, body {
+    background-color: #262728;
+    font-family: $mainfont, sans-serif;
+    color: white; 
+    min-height: 100vh;
+}
+
+body {
+    background: url(../assets/img/bg_black.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 30px;
+}
+
+#main_content {
+    //background-color: skyblue;
+}

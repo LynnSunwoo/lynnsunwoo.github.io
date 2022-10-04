@@ -1,0 +1,41 @@
+
+
+//import variables
+@import 'variables';
+
+
+/*
+.navbar {
+z-index: 999;
+width: 250px;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+background-color: rgba(0,0,0,0.05);
+padding: 10px;
+}
+*/
+
+nav {
+    //background-color: red;
+    width: 200px;
+    height: 100vh;
+}
+
+.solution_boxedtags {
+    color: #2A85F3;
+    border: 2px solid #2A85F3;
+    padding: 2px 4px;
+    font-weight: 500;
+    border-radius: 2px;
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 3px;
+}
+
+.h2_title {
+    font-size: 1.35rem;
+    font-weight: bold;
+    //letter-spacing: 1px;
+}

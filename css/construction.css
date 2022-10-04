@@ -1,0 +1,96 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+/*
+.navbar {
+z-index: 999;
+width: 250px;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+background-color: rgba(0,0,0,0.05);
+padding: 10px;
+}
+*/
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+nav {
+  width: 200px;
+  height: 100vh;
+}
+
+.solution_boxedtags {
+  color: #2A85F3;
+  border: 2px solid #2A85F3;
+  padding: 2px 4px;
+  font-weight: 500;
+  border-radius: 2px;
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 3px;
+}
+
+.h2_title {
+  font-size: 1.35rem;
+  font-weight: bold;
+}
+
+.carousel-indicators {
+  list-style: none;
+}
+
+.bttns {
+  background-color: transparent;
+}
+
+.carousel-indicators [data-bs-target] {
+  border: none;
+  width: 100%;
+  border-left: 5px solid transparent;
+  padding: 8px 6px 8px 8px;
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.carousel-indicators:hover {
+  cursor: pointer;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  color: green;
+  border-left: 5px solid #305597;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: rgb(255, 255, 255);
+}
+
+.carousel-inner {
+  border-radius: 8px;
+  padding: 0;
+  padding: 0px 35px 0px 0px;
+}
+
+.carousel-item {
+  border-radius: 8px;
+}
+
+.vids {
+  border-radius: 8px;
+}
+
+html, body {
+  background-color: #262728;
+  font-family: "Pretendard Variable", sans-serif;
+  color: white;
+  min-height: 100vh;
+}
+
+body {
+  background: url(../assets/img/bg_black.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 30px;
+}
+
+/*# sourceMappingURL=construction.css.map */

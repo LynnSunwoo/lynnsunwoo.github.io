@@ -1,0 +1,52 @@
+////////// CUSTOM /////////
+
+//import variables
+@import 'variables';
+
+@import 'nav';
+
+@import 'sliders';
+
+
+//basic body
+
+html, body {
+    background-color: #262728;
+    font-family: $mainfont, sans-serif;
+    color: white;
+}
+
+#fullpage { 
+}
+
+.section { 
+}
+
+#slide01 {
+    background: url(../assets/img/bg_construction.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slide02,#slide03,#slide04,#slide05 {
+    background: url(../assets/img/bg_black.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slide06 {
+    background: url(../assets/img/bg_contact.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+//flicker fix
+.wrapper {
+-webkit-transform: translate3d(0,0,0);
+}
+.slide {
+-webkit-transform: translate3d(0,0,0);
+}
+.section {
+-webkit-transform: translate3d(0,0,0);
+}

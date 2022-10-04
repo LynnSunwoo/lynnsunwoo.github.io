@@ -1,0 +1,61 @@
+////////// slider page //////////
+
+//import variables
+@import 'variables';
+ 
+
+.carousel-indicators {
+    list-style: none; 
+}
+
+.carousel-indicators li {
+
+}
+
+.bttns {
+    
+    background-color: transparent;
+}
+
+.carousel-indicators [data-bs-target] {
+    border: none;
+    width: 100%;
+    border-left: 5px solid transparent;
+    padding: 8px 6px 8px 8px;
+    border-radius: 3px;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.carousel-indicators:hover {
+    cursor: pointer;
+    //color: green;
+}
+
+
+.carousel-indicators .active {
+    opacity: 1;
+    color: green; 
+    border-left: 5px solid $blue;
+    background-color: rgba(255,255,255,0.05) ;
+    color: rgba(255,255,255,1);
+    
+}
+
+.carousel-inner {
+    border-radius: 8px;
+    padding: 0;
+   // background-color: red;
+    //overflow: hidden;
+    padding: 0px 35px 0px 0px;
+}
+
+.carousel-item {
+    border-radius: 8px; 
+}
+
+.vids {
+    //border: 8px solid rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
